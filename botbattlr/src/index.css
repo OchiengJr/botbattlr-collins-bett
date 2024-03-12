@@ -1,77 +1,84 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");
 
+/* Global styles */
 body {
   font-family: "Raleway", sans-serif;
-  }
+}
 
-  .cancel-icon {
-    color: red;
-    position: absolute;
-    right: 0;
-    padding: 1rem;
-  }  
+/* Cancel icon styling */
+.cancel-icon {
+  color: red;
+  position: absolute;
+  right: 0;
+  padding: 1rem;
+}
 
-.heading{
-  
+/* Heading styles */
+.heading {
   height: 500px;
 }
-#bot_cont{
+
+/* Bot container */
+#bot_cont {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
-  
 }
 
-#xyz{
+/* XYZ container */
+#xyz {
   height: 500px;
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   overflow-y: auto;
   background-color: limegreen;
   padding: 2rem;
 }
 
+/* Image styles */
 img {
-    width: 100%;
-    /* border-radius: 12px; */
-    height: 15rem;
-    object-fit: cover;
-  }
-  
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+}
+
+/* Container styles */
 #container {
-    max-width: 15rem;
-    margin: 1rem;
-   background-color: #fff;
-   
-  }
+  max-width: 15rem;
+  margin: 1rem;
+  background-color: #fff;
+}
 
-.card{
+/* Card styles */
+.card {
   position: relative;
-    border: 2px solid #b6bcbe;
-    transition: .5s;
+  border: 2px solid #b6bcbe;
+  transition: .5s;
 }
 
-.card:hover{
-    box-shadow: 2px 5px 18px #888888;
+.card:hover {
+  box-shadow: 2px 5px 18px #888888;
 }
 
- .bot_name, .bot_class {
-    padding: 4px 8px;
-    border: 1px solid #404b52;
-    margin-inline-end: 1rem;
-    border-radius: 50px;
-    font-size: 12px;
-    font-weight: 600;
-    color: #31465f;
-  }
+/* Bot name and class styles */
+.bot_name,
+.bot_class {
+  padding: 4px 8px;
+  border: 1px solid #404b52;
+  margin-inline-end: 1rem;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #31465f;
+}
 
-  p {
-    font-size: 14px;
-    color: #7f8c9b;
-    line-height: 150%;
-  }
-  
-  
+/* Paragraph styles */
+p {
+  font-size: 14px;
+  color: #7f8c9b;
+  line-height: 150%;
+}
+
+/* Card details styles */
 .card__details {
-   
-    padding: 16px 8px 8px 8px;
-  }
+  padding: 16px 8px 8px 8px;
+}
