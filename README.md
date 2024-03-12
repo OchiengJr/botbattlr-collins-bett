@@ -1,7 +1,7 @@
 # Bot Battlr Army 
 
 This is a React web app built for the Bot Overlord to choose which bots to call up to join his army.The Overlord can also dismiss bots from service with the application. 
-Here is the [LINK](https://botbattlr-collins-bett1.vercel.app/)
+Here is the [LINK](https://botbattlr-collins-bett1.vercel.app/) to the website.
 
 ## Built With
 This web application has been built using:
